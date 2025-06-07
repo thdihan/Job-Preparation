@@ -13,9 +13,58 @@ export default defineConfig({
                 text: "Javascript",
                 link: "/javascript",
             },
+            {
+                text: "DSA",
+                link: "/dsa/datastructure.md",
+            },
         ],
 
         sidebar: {
+            "/dsa": [
+                {
+                    text: "Data Structure & Algorithm",
+                    items: [
+                        {
+                            text: "Data Structure",
+                            items: [
+                                {
+                                    text: "Data Structure: Intro",
+                                    link: "/dsa/datastructure.md",
+                                },
+                                {
+                                    text: "Tree",
+                                    link: "/dsa/tree/tree.md",
+                                    items: [
+                                        {
+                                            text: "Binary Tree",
+                                            link: "/dsa/tree/binary_tree/binary_tree.md",
+                                        },
+                                    ],
+                                },
+                            ],
+                        },
+
+                        {
+                            text: "Algorithm",
+                            items: [
+                                {
+                                    text: "Algorithm: Intro",
+                                    link: "/dsa/algorithm.md",
+                                },
+                            ],
+                        },
+                    ],
+                },
+                {
+                    text: "Algorithm",
+                    items: [
+                        {
+                            text: "Introduction",
+                            link: "/dsa/algorithm.md",
+                        },
+                    ],
+                },
+            ],
             "/javascript": [
                 {
                     text: "Javascript",
