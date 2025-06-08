@@ -23,6 +23,7 @@ class Solution {
         string simplifyPath(string path) {
             deque<string> dq;
 
+            string ans = "";
             string part = "";
 
             for(int i = 0;i < path.size();i++) {
@@ -34,8 +35,9 @@ class Solution {
                 }
             }
 
+            // For the case like /main/.. or /main/new which did't finish with /
             if(part != "") processPath(path, part, dq);
-            string ans = "";
+
             while(!dq.empty()) {
                 ans += "/" + dq.front()  ;
                 dq.pop_front();

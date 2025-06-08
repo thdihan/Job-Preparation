@@ -1,0 +1,34 @@
+## 20. Valid Parentheses
+
+[https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150](https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150)
+
+-   Time : `O(n)`
+
+```cpp
+class Solution {
+public:
+    bool isValid(string s) {
+        stack<char> st;
+
+        for(int i = 0;i < s.size();i++) {
+            if(s[i] == '(' || s[i] == '{' || s[i] == '[')
+                st.push(s[i]);
+
+            else if((s[i] == ')' || s[i] == '}' || s[i] == ']') && !st.empty()) {
+                char t = st.top();
+                st.pop();
+
+                if((t == '(' && s[i] == ')') || (t == '{' && s[i] == '}') || (t == '[' && s[i] == ']'))
+                    continue;
+                else
+                    return false;
+            }
+            else return false;
+        }
+
+        if(!st.empty()) return false;
+
+        return true;
+    }
+};
+```
