@@ -19,3 +19,8 @@ FROM (
 WHERE no_of_char > 15;
 
 ```
+
+#### Q:
+
+1. What is the diff btwn length() in select and LENGTH() in where clause?
+2. What are the functions can be used in where clause like LENGTH()?
