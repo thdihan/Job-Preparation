@@ -25,7 +25,7 @@ EOF
 echo "File '$filename' created successfully!"
 
 # Append a reference entry to README.md if not already present
-entry="- [$input]()"
+entry="- [$input](./$filename)"
 
 # Check if entry already exists in README.md
 if ! grep -Fxq "$entry" README.md; then
