@@ -11,3 +11,4 @@
 -   [1280. Students and Examinations](./1280_Students_and_Examinations.md)
 -   [620. Not Boring Movies](./620_Not_Boring_Movies.md)
 -   [1251. Average Selling Price](./1251_Average_Selling_Price.md)
+-   [1075. Project Employees I](./1075_Project_Employees_I.md)
