@@ -6,13 +6,13 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-# Original string
+# Original input string
 input="$1"
 
-# Filename conversion: replace '.' and space with '_' and add .md
+# Create a filename by replacing dot and space with underscores
 filename=$(echo "$input" | sed -E 's/[. ]+/_/g').md
 
-# Create file with markdown content
+# Create the markdown file with a basic template
 cat <<EOF > "$filename"
 ### $input
 
@@ -23,3 +23,14 @@ cat <<EOF > "$filename"
 EOF
 
 echo "File '$filename' created successfully!"
+
+# Append a reference entry to README.md if not already present
+entry="- [$input]()"
+
+# Check if entry already exists in README.md
+if ! grep -Fxq "$entry" README.md; then
+  echo "$entry" >> README.md
+  echo "Entry added to README.md"
+else
+  echo "Entry already exists in README.md"
+fi
