@@ -6,7 +6,7 @@
 
 -- Write your PostgreSQL query statement below
 SELECT
-    P.product_id, COALESCE(ROUND(SUM(price * units) / SUM(units * 1.0) ,2) , 0) average_price
+    P.product_id, COALESCE( ROUND( SUM(price * units) / SUM(units * 1.0) ,2) , 0) average_price
 FROM
     Prices P
 LEFT JOIN
