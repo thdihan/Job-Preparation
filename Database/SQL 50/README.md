@@ -14,3 +14,4 @@
 -   [1075. Project Employees I](./1075_Project_Employees_I.md)
 - [1633. Percentage of Users Attended a Contest](./1633_Percentage_of_Users_Attended_a_Contest.md)
 - [1211. Queries Quality and Percentage](./1211_Queries_Quality_and_Percentage.md)
+- [2356. Number of Unique Subjects Taught by Each Teacher](./2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.md)
