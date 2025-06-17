@@ -26,5 +26,15 @@
     </td>
     <td>150 Interview</td>
   </tr>
+
+  <tr>
+    <td rowspan="2">Array</td>
+    <td>27. Remove Element</td>
+    <td><a href="./150%Interview/27_Remove_Element.md">Link</a></td>
+    <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
+  Easy
+</span></td>
+    <td>N/A</td>
+  </tr>
   
 </table>
