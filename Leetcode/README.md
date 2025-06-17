@@ -45,5 +45,13 @@
 </span></td>
     <td>Top Interview 150</td>
   </tr>
+<tr>
+    <td>80. Remove Duplicates from Sorted Array II</td>
+    <td><a href="./150 Interview/80_Remove_Duplicates_from_Sorted_Array_II.md">Link</a></td>
+    <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
+  Easy
+</span></td>
+    <td>Top Interview 150</td>
+  </tr>
   
 </table>
