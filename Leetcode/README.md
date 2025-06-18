@@ -27,16 +27,17 @@
     <td>Top Interview 150</td>
   </tr>
 
+ <!-- Array / String -->
   <tr>
-    <td rowspan="15">Array / String</td>
+    <td rowspan="6">Array / String</td>
     <td>27. Remove Element</td>
     <td><a href="./150%Interview/27_Remove_Element.md">Link</a></td>
     <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
   Easy
-</span></td>
+</span>
+</td>
     <td>Top Interview 150</td>
   </tr>
-  
   <tr>
     <td>26. Remove Duplicates from Sorted Array</td>
     <td><a href="./150%Interview/26_Remove_Duplicates_from_Sorted_Array.md">Link</a></td>
@@ -74,6 +75,17 @@
   <tr>
     <td>88. Merge Sorted Array</td>
     <td><a href="./150 Interview/88_Merge_Sorted_Array.md">Link</a></td>
+    <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
+  Easy
+</span></td>
+    <td>Top Interview 150</td>
+  </tr>
+
+  <!-- Hashmap -->
+  <tr>
+    <td rowspan="10">Hashmap</td>
+    <td>1. Two Sum</td>
+    <td><a href="./150 Interview/1_Two_Sum.md">Link</a></td>
     <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
   Easy
 </span></td>
