@@ -62,4 +62,13 @@
     <td>Top Interview 150</td>
   </tr>
   
+  <tr>
+    <td>169. Majority Element</td>
+    <td><a href="./150 Interview/169_Majority_Element.md">Link</a></td>
+    <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
+  Easy
+</span></td>
+    <td>Top Interview 150</td>
+  </tr>
+  
 </table>
