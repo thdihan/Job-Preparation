@@ -92,11 +92,22 @@
 
   <!-- Hashmap -->
   <tr>
-    <td rowspan="10">Hashmap</td>
+    <td rowspan="1">Hashmap</td>
     <td>1. Two Sum</td>
     <td><a href="./150 Interview/1_Two_Sum.md">Link</a></td>
     <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
   Easy
+</span></td>
+    <td>Top Interview 150</td>
+  </tr>  
+  
+  <!-- Math -->
+  <tr>
+    <td rowspan="1">Math</td>
+    <td>50. Pow(x, n)</td>
+    <td><a href="./150 Interview/50_Pow(x, n).md">Link</a></td>
+    <td style="color: green"><span style="background-color:rgb(237, 236, 212); color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solidrgb(227, 230, 195);">
+  Medium
 </span></td>
     <td>Top Interview 150</td>
   </tr>
