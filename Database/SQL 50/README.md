@@ -17,3 +17,4 @@
 -   [2356. Number of Unique Subjects Taught by Each Teacher](./2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.md)
 -   [1141. User Activity for the Past 30 Days I](./1141_User_Activity_for_the_Past_30_Days_I.md)
 - [596. Classes With at Least 5 Students](./596_Classes_With_at_Least_5_Students.md)
+- [1729. Find Followers Count](./1729_Find_Followers_Count.md)
