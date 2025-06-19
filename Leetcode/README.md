@@ -38,7 +38,7 @@
 
  <!-- Array / String -->
   <tr>
-    <td rowspan="6">Array / String</td>
+    <td rowspan="7">Array / String</td>
     <td>27. Remove Element</td>
     <td><a href="./150%Interview/27_Remove_Element.md">Link</a></td>
     <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
@@ -54,6 +54,14 @@
   Easy
 </span></td>
     <td>Top Interview 150</td>
+  </tr>
+  <tr>
+    <td>14. Longest Common Prefix</td>
+    <td><a href="./Solutions/14_Longest_Common_Prefix.md">Link</a></td>
+    <td style="color: green"><span style="background-color:#d4edda; color:#155724; padding:2px 6px; border-radius:4px; font-size:90%; font-weight:bold; border:1px solid #c3e6cb;">
+  Easy
+</span></td>
+    <td></td>
   </tr>
 <tr>
     <td>80. Remove Duplicates from Sorted Array II</td>
